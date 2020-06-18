@@ -1,0 +1,30 @@
+// Include Java project.
+include ':_TEST'
+
+//Libraries
+include ':LibCommon'
+include ':LibMedia'
+include ':LibApiScanner'
+// Application
+include ':MediaScanService'
+
+//Libraries
+include ':LibApiMusic'
+//include ':LibCommon'
+//include ':LibMedia'
+//include ':LibApiScanner'
+// Application
+include ':MusicPlayService'
+
+//Libraries
+//include ':LibApiMusic'
+//include ':LibCommon'
+//include ':LibMedia'
+//include ':LibApiScanner'
+//UI Libraries
+include ':LetterSideBar'
+include ':XSkinLoader-Lib'
+// Application IOS UI
+include ':MusicPlayer_Skin_IOS'
+// Application
+include ':MusicPlayerUI'

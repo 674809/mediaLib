@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Media扫描服务</string>
+
+    <!--Test text-->
+    <string name="startScan">startScan()</string>
+    <string name="getStorageDevices">getStorageDevices()</string>
+    <string name="getAllMedias_audio">getAllMedias()-AUDIO</string>
+    <string name="getAllMedias_video">getAllMedias()-VIDEO</string>
+    <string name="getAllMedias_image">getAllMedias()-IMAGE</string>
+    <string name="getAllMedias_all">getAllMedias()-ALL</string>
+    <string name="getCount_audio">getCount()-AUDIO</string>
+    <string name="getCount_video">getCount()-VIDEO</string>
+    <string name="getCount_image">getCount()-IMAGE</string>
+    <string name="getCount_all">getCount()-ALL</string>
+    <string name="getAllMediaSheets_audio">getAllMediaSheets()-AUDIO</string>
+    <string name="addMediaSheet_audio">addMediaSheet()-AUDIO</string>
+    <string name="updateMediaSheet_audio">updateMediaSheet()-AUDIO</string>
+    <string name="getAllMediaSheetMapInfos_audio">getAllMediaSheetMapInfos()-AUDIO</string>
+    <string name="addMediaSheetMapInfo_audio">addMediaSheetMapInfo()-AUDIO</string>
+    <string name="delMediaSheetMapInfo_audio">delMediaSheetMapInfo()-AUDIO</string>
+</resources>

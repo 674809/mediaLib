@@ -1,0 +1,264 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+MERGED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:17:1-31:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:4:5-29
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:1-77:12
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:8:5-73
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:8:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:13:5-84
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:13:22-81
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:16:22-78
+application
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:18:5-75:19
+MERGED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:22:9-41
+	tools:ignore
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:25:9-76
+	android:roundIcon
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:20:9-35
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:19:9-42
+activity#com.egar.audio.MainActivity
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:26:9-36:20
+	android:screenOrientation
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:29:13-50
+	android:launchMode
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:28:13-48
+	android:theme
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:30:13-66
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:27:13-55
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.MAIN
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:32:17-69
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:32:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:34:27-74
+service#com.egar.audio.service.AudioPlayService
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:38:9-41:46
+	android:exported
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:40:13-36
+	tools:ignore
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:41:13-43
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:39:13-67
+receiver#com.egar.audio.receiver.MediaBtnReceiver
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:44:9-48:20
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:44:19-74
+intent-filter#action:name:android.intent.action.MEDIA_BUTTON
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:45:28-51
+action#android.intent.action.MEDIA_BUTTON
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:46:25-74
+receiver#com.egar.audio.receiver.AudioPlayReceiver
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:51:9-74:20
+	tools:ignore
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:52:13-69
+intent-filter#action:name:com.egar.audio.test.OPEN_LOGS
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:55:13-57:29
+action#com.egar.audio.test.OPEN_LOGS
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:56:17-72
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:56:25-69
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:60:13-62:29
+	android:priority
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:60:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:61:17-79
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:61:25-76
+intent-filter#action:name:com.egar.voice.adapter.CLOSE_MUSIC+action:name:com.egar.voice.adapter.MEDIA_NEXT+action:name:com.egar.voice.adapter.MEDIA_PAUSE+action:name:com.egar.voice.adapter.MEDIA_PLAY+action:name:com.egar.voice.adapter.MEDIA_PREV+action:name:com.egar.voice.adapter.OPEN_MUSIC+action:name:com.egar.voice.adapter.OPEN_PLAY_MUSIC
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:65:13-73:29
+action#com.egar.voice.adapter.OPEN_MUSIC
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:66:17-76
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:66:25-73
+action#com.egar.voice.adapter.CLOSE_MUSIC
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:67:17-77
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:67:25-74
+action#com.egar.voice.adapter.MEDIA_PLAY
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:68:17-76
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:68:25-73
+action#com.egar.voice.adapter.MEDIA_PAUSE
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:69:25-74
+action#com.egar.voice.adapter.MEDIA_PREV
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:70:17-76
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:70:25-73
+action#com.egar.voice.adapter.MEDIA_NEXT
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:71:17-76
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:71:25-73
+action#com.egar.voice.adapter.OPEN_PLAY_MUSIC
+ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:72:17-81
+	android:name
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml:72:25-78
+uses-sdk
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+MERGED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		ADDED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+		INJECTED from F:\EgarMedia_wangjun\MusicPlayService\src\main\AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibApiScanner] F:\EgarMedia_wangjun\LibApiScanner\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibMedia] F:\EgarMedia_wangjun\LibMedia\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+MERGED from [:LibCommon] F:\EgarMedia_wangjun\LibCommon\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from [:LibApiMusic] F:\EgarMedia_wangjun\LibApiMusic\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:22-72
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\23161ae195cc57b51434013831b96f01\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\e9349d57565e16e1dd01a5de051c5df6\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\0fbb6c1a3646eb2dd891934ea8e4a84f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\5c3968dae6d767eb7a13192956ba717f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\dbca4fb6b94719569c50421887f19d5a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\4b1c55afc07a2be3dbb72e514749f211\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\19b00521165af063dcb310aac71be366\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\94a44abda564235c8b6d342e0c14e767\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] C:\Users\yangbofeng\.gradle\caches\transforms-2\files-2.1\59c1f58dc7c029d1f97da5606af2ab34\AndroidManifest.xml:27:13-51

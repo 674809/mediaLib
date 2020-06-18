@@ -1,0 +1,17 @@
+####  Project struct  ####
+    1. [Scanner]
+       -- _TEST                   >    Used to filter information for submit.
+       -- LibApiScanner           >    LIB_API_SCANNER
+       -- LibCommon               >    LIB_COMMON
+       -- LibMedia                >    LIB_MEDIA
+       -- MediaScanService        >    EgarMediaScanService
+
+    2. [MusicPlayService]
+       -- LibApiMusic             >    LIB_API_MUSIC
+       -- MusicPlayService        >    EgarMusicPlayService
+
+    3. [MusicPlayerUI]
+       -- MusicPlayer_Skin_IOS    >    Used to produce skin apk.
+       -- LetterSideBar           >    LETTER_SIDE_BAR
+       -- XSkinLoader-Lib         >    LIB_SKIN_X
+       -- MusicPlayerUI           >    EgarMusicPlayerUI

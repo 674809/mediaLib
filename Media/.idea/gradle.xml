@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/LetterSideBar" />
+            <option value="$PROJECT_DIR$/LibApiMusic" />
+            <option value="$PROJECT_DIR$/LibApiScanner" />
+            <option value="$PROJECT_DIR$/LibCommon" />
+            <option value="$PROJECT_DIR$/LibMedia" />
+            <option value="$PROJECT_DIR$/MediaScanService" />
+            <option value="$PROJECT_DIR$/MusicPlayService" />
+            <option value="$PROJECT_DIR$/MusicPlayerUI" />
+            <option value="$PROJECT_DIR$/MusicPlayer_Skin_IOS" />
+            <option value="$PROJECT_DIR$/XSkinLoader-Lib" />
+            <option value="$PROJECT_DIR$/_TEST" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

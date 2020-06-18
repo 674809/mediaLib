@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Music播放服务</string>
+    <string name="no_img">NO IMAGE</string>
+    <string name="unknow">未知</string>
+    <string name="unknown_title">未知标题</string>
+    <string name="unknown_album">未知专辑</string>
+    <string name="unknown_artist">未知表演者</string>
+
+    <!--Test text-->
+    <string name="getStorageDevices">getStorageDevices()</string>
+    <string name="getAllMedias_audio">getAllMedias()-AUDIO</string>
+    <string name="getCount_audio">getCount()-AUDIO</string>
+    <string name="getAllMediaSheets_audio">getAllMediaSheets()-AUDIO</string>
+    <string name="addMediaSheet_audio">addMediaSheet()-AUDIO</string>
+    <string name="updateMediaSheet_audio">updateMediaSheet()-AUDIO</string>
+    <string name="getAllMediaSheetMapInfos_audio">getAllMediaSheetMapInfos()-AUDIO</string>
+    <string name="addMediaSheetMapInfo_audio">addMediaSheetMapInfo()-AUDIO</string>
+    <string name="delMediaSheetMapInfo_audio">delMediaSheetMapInfo()-AUDIO</string>
+</resources>

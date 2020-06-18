@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.egar.audio.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/ll_bottom_bar"
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/greenyellow"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_info"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/iv_play"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_time"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/no_img"
+            android:src="@drawable/ios_op_play_c" />
+
+        <ImageView
+            android:id="@+id/iv_prev"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_time"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/iv_play"
+            android:contentDescription="@string/no_img"
+            android:src="@drawable/ios_op_prev_c" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_time"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/iv_play"
+            android:contentDescription="@string/no_img"
+            android:src="@drawable/ios_op_next_c" />
+
+        <ImageView
+            android:id="@+id/iv_mode"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_time"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/iv_next"
+            android:contentDescription="@string/no_img"
+            android:src="@drawable/ios_op_mode_loop_c" />
+
+        <ImageView
+            android:id="@+id/iv_cover"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/tv_time"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@id/iv_prev"
+            android:background="@color/aliceblue"
+            android:contentDescription="@string/no_img"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/sv_left"
+        android:layout_width="600dp"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_bottom_bar"
+        android:background="@color/aliceblue">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_get_all_storage_devices"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/getStorageDevices"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_get_all_audios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_all_storage_devices"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/getAllMedias_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_get_all_audios_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_all_audios"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/getCount_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_get_media_sheets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_all_audios_count"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/getAllMediaSheets_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_add_media_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_media_sheets"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/addMediaSheet_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_update_media_sheet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_add_media_sheet"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/updateMediaSheet_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_get_media_sheet_map_infos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_update_media_sheet"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/getAllMediaSheetMapInfos_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_add_media_sheet_map_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_get_media_sheet_map_infos"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/addMediaSheetMapInfo_audio"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_del_media_sheet_map_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_add_media_sheet_map_info"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:padding="5dp"
+                android:text="@string/delMediaSheetMapInfo_audio"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/sv_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@id/sv_left">
+
+        <TextView
+            android:id="@+id/tv_scanning_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_title_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_scanning_state"
+            android:minHeight="50dp"
+            android:padding="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lv_objects"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tv_title_method"
+            android:orientation="vertical" />
+    </RelativeLayout>
+</RelativeLayout>

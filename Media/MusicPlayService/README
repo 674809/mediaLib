@@ -1,0 +1,5 @@
+1. 测试语音
+$ adb shell am broadcast -a com.egar.voice.adapter.OPEN_PLAY_MUSIC --ei type 4 --es path "/storage/emulated/0/Music/Musics_Videos/111.flac"
+
+2. 打开Debug日志
+$ adb shell am broadcast -a com.egar.audio.test.OPEN_LOGS

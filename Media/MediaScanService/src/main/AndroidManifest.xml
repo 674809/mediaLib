@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.egar.scanner">
+    <!--android:sharedUserId="android.uid.system">-->
+
+    <!--Settings -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <!--Storage permission-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!--Permission for receive "android.intent.action.BOOT_COMPLETED"-->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".service.ScannerService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.egar.scanner.START_SERVICE" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="juns.lib.media.provider.audio.LocalAudioProvider"
+            android:authorities="com.egar.scanner.provider.audio"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <provider
+            android:name="juns.lib.media.provider.video.LocalVideoProvider"
+            android:authorities="com.egar.scanner.provider.video"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <provider
+            android:name="juns.lib.media.provider.image.LocalImageProvider"
+            android:authorities="com.egar.scanner.provider.image"
+            android:exported="true"
+            tools:ignore="ExportedContentProvider" />
+
+        <receiver android:name=".receiver.MediaScanReceiver">
+            <!-- System Boot -->
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+
+            <!--Mount-->
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <!--<action android:name="android.intent.action.MEDIA_CHECKING" />-->
+                <action android:name="android.intent.action.MEDIA_EJECT" />
+                <!--<action android:name="android.intent.action.MEDIA_REMOVED" />-->
+                <data android:scheme="file" />
+            </intent-filter>
+
+            <!--Logs-->
+            <intent-filter>
+                <action android:name="com.egar.scanner.test.OPEN_LOGS" />
+            </intent-filter>
+
+            <!--Test-->
+            <intent-filter>
+                <action android:name="com.egar.scanner.test.MOUNTED" />
+                <action android:name="com.egar.scanner.test.UN_MOUNTED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

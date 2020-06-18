@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Audio list top -->
+    <dimen name="audio_top_layout_h">120dp</dimen>
+    <dimen name="audio_top_item_font_size">36sp</dimen>
+    <dimen name="audio_top_item_margin_top">15dp</dimen>
+    <dimen name="audio_top_item_margin_bottom">15dp</dimen>
+    <!-- Audio list left-bottom -->
+    <dimen name="audio_left_layout_w">180dp</dimen>
+    <dimen name="audio_left_loading_w">60dp</dimen>
+    <!-- Audio list right-bottom ListView -->
+    <dimen name="audio_lv_margin_start">160dp</dimen>
+    <dimen name="audio_lv_com_h">112dp</dimen>
+    <dimen name="audio_lv_com_icon_w">40dp</dimen>
+    <dimen name="audio_lv_com_icon_h">40dp</dimen>
+    <dimen name="audio_lv_com_ui_space">35dp</dimen>
+    <dimen name="audio_lv_com_font_size">40sp</dimen>
+
+    <!-- Audio player middle-->
+    <dimen name="audio_player_top_font_size">40sp</dimen>
+    <dimen name="audio_player_title_font_size">60sp</dimen>
+    <dimen name="audio_player_artist_font_size">40sp</dimen>
+    <dimen name="audio_player_album_font_size">40sp</dimen>
+    <dimen name="audio_player_cover_w">270dp</dimen>
+    <dimen name="audio_player_cover_h">270dp</dimen>
+    <dimen name="audio_player_seekbar_len">500dp</dimen>
+    <!-- Audio player bottom-->
+    <dimen name="audio_player_op_w">100dp</dimen>
+    <dimen name="audio_player_op_h">100dp</dimen>
+    <dimen name="audio_player_op_period">40dp</dimen>
+
+</resources>
